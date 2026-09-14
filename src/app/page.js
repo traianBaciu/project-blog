@@ -4,7 +4,6 @@ import { getBlogPostList } from "@/helpers/file-helpers";
 import BlogSummaryCard from "@/components/BlogSummaryCard";
 
 import styles from "./homepage.module.css";
-import { de } from "date-fns/locale";
 
 async function Home() {
   const blogPosts = await getBlogPostList();
